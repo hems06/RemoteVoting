@@ -18,8 +18,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@nomicfoundation/hardhat-ethers": "^4.0.4",
-    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
@@ -29,7 +29,10 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "ethers": "^5.7.2",
-    "hardhat": "^2.22.0",
+    "hardhat": "^2.19.4",
     "vite": "^4.4.5"
+  },
+  "overrides": {
+    "hardhat": "^2.19.4"
   }
 }
